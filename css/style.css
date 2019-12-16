@@ -55,10 +55,10 @@ h1 {
     border-radius: 100%;
 }
 .swiper-button-next {
-    top: 605px;
+    top: 70%;
     right: 10px;
 }
 .swiper-button-prev {
-    top: 605px;
+    top: 70%;
     left: 10px;
 }
