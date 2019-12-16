@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: url(bg/bg.png);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    position: relative;
+}
+.swiper-title {
+    width: 100%;
+}
+p {
+    font-size: 18px;
+    font-weight: 600;
+}
+h1 {
+    font-size: 86px;
+    line-height: 90px;
+    margin: auto;
+    width: 1030px;
+}
+.swiper-wrapper {
+    height: 400px;
+    margin: auto;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: "";
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 100%;
+}
+.swiper-button-next {
+    top: 605px;
+    right: 10px;
+}
+.swiper-button-prev {
+    top: 605px;
+    left: 10px;
+}
